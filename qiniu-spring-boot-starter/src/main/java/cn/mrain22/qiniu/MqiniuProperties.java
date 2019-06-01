@@ -1,4 +1,4 @@
-package cn.mrain22.qiniu.properties;
+package cn.mrain22.qiniu;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
@@ -17,6 +17,8 @@ public class MqiniuProperties {
     private String secretKey;
     /** 要上传的空间*/
     private  String bucketName;
+    /** 文件地址前缀，cdn地址*/
+    private String filePathPrefix;
 
     public String getAccessKey() {
         return accessKey;
@@ -40,6 +42,14 @@ public class MqiniuProperties {
 
     public void setBucketName(String bucketName) {
         this.bucketName = bucketName;
+    }
+
+    public String getFilePathPrefix() {
+        return filePathPrefix;
+    }
+
+    public void setFilePathPrefix(String filePathPrefix) {
+        this.filePathPrefix = filePathPrefix;
     }
 }
 
