@@ -21,9 +21,9 @@ public class MqiniuCondition implements Condition {
         if (StringUtils.isEmpty(ak)) {
             throw new RuntimeException("Lack of qiniuyun configuration:access-key");
         } else if (StringUtils.isEmpty(sk)) {
-            throw new RuntimeException("Lack of mqiniuyun configuration:qiniu.secret-key");
+            throw new RuntimeException("Lack of mqiniuyun configuration:secret-key");
         } else if (StringUtils.isEmpty(bucketName)) {
-            throw new RuntimeException("Lack of qiniuyun configuration:qiniu.bucket-name");
+            throw new RuntimeException("Lack of qiniuyun configuration:bucket-name");
         } else {
             return true;
         }
