@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/webjars/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+<h2>用户页面</h2>
+   <div>
+       <button onclick="send()">发送消息</button>
+       <button onclick="connectWebSocket()">建立连接</button>
+       <button onclick="closeWebSocket()">关闭连接</button>
+   </div>
+
+</body>
+</html>
+<script>
+
+    var websocket=null;
+    //建立WebSocket连接
+    function connectWebSocket(){
+
+        console.log("开始...");
+
+        //建立webSocket连接
+        websocket = new WebSocket("ws://localhost:8080/ws/userCount");
+
+        //打开webSokcet连接时，回调该函数
+        websocket.onopen = function () {
+            console.log("onpen");
+            let id = Math.random();
+            send(id);
+            interval(id);
+        }
+
+        //关闭webSocket连接时，回调该函数
+        websocket.onclose = function () {
+            //关闭连接
+            console.log("onclose");
+        }
+
+        //接收信息
+        websocket.onmessage = function (msg) {
+            console.log(msg.data);
+        }
+    }
+
+    //发送消息
+    function send(id){
+        let messageEntity = {
+            type:'2',
+            content:id
+        }
+        console.log("发送消息");
+        console.log(messageEntity);
+        websocket.send(JSON.stringify(messageEntity));
+    }
+    //关闭连接
+    function closeWebSocket(){
+        if(websocket != null) {
+            websocket.close();
+        }
+    }
+    function interval(id) {
+        window.setInterval(function() {
+            send(id);
+        }, 60*1000);
+    }
+
+</script>
