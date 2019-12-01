@@ -1,0 +1,626 @@
+body{
+	background-image: url(../img/body.png);
+}
+.Nav-main{
+	background-color: #dfdad0;
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+	z-index: 4;
+}
+.logo{
+	float: left;
+	margin-left: 20%;
+}
+.nav{
+	list-style: none;
+	padding-right: 10%;
+}
+.nav li{
+	float: right;
+	width: 10%;
+}
+.nav a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 8px 0;
+	text-decoration: none;
+	font-size: 22px;
+	color: #e5645a;
+	font-weight: bold;
+}
+.nav a:hover{
+	background-color: #a79b81;
+}
+	
+/*我的作品*/
+.works{
+	width: 1150px;
+	margin: 0px auto;
+	padding-top: 5px;
+	padding-top: 100px;
+	/*border: 1px solid black;*/
+}
+.works h1{
+	color: #F25C27;
+	font-size: 28px;
+	font-weight: 300;
+}
+.works .box{
+	float: left;
+	margin: 8px;
+}
+/*主页*/
+.hom{
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	color: #525252;
+}
+.hom-left{
+	float: left;
+}
+.imge-me{
+	width: 40%;
+	height: 700px;
+	/*border: 1px solid red;*/
+}
+.imge-me span{
+	display: block;
+	float: right;
+	margin-top: 185px;
+	margin-right: 50px;
+}
+.hom-1{
+	width: 60%;
+	height: 700px;
+}
+.MyName{
+	margin-top:170px ;
+	margin-left: 150px;
+	font-size: 50px;
+}
+.MyName span{
+	color: #282828;
+}
+.Welcome{
+	margin-left:200px ;
+	font-size: 30px;
+}
+.motto{
+	margin-left: 170px;
+	font-family: "楷体";
+}
+
+.btn1{
+	display: block;
+	width: 350px;
+	height: 50px;
+	margin-left: 200px;
+	background-image: url(../img/btn.png);
+}
+.btn1:hover{
+	background-position: -350px 0px;
+}
+.line{
+	height: 5px;
+	clear: both;
+}
+
+/*content*/
+.content{
+	width: 1100px;
+	height: 320px;
+	margin: 0 auto;
+	padding-top: 40px;
+	clear: both;
+}
+.con-benner{
+	width: 1100px;
+	height: 300px;
+	background: url(../img/nav_back.png) no-repeat;
+}
+.con-benner h1{
+	font-size: 48px;
+	font-family: "新宋体";
+	padding: 48px 78px;
+}
+.con-benner p{
+	font-size: 15px;
+	font-family: "宋体";
+	padding: 0px 78px;
+}
+.con-benner .book{
+	width: 179px;
+	height: 196px;
+	background: url(../img/book.png) no-repeat;
+	float: right;
+	margin-top: 100px;
+	margin-right: 60px;
+}
+.con-benner .weixin{
+	width: 100px;
+	height: 100px;
+	background-color: #ece0cb;
+	background: url(../img/weixin.png) no-repeat;
+	margin-left: 150px;
+	margin-top: 5px;
+}
+.con-benner .qq{
+	width: 100px;
+	height: 100px;
+	background-color: #ece0cb;
+	background: url(../img/qq.png) no-repeat;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+.content-hom{
+	clear: both;
+	/*height: 30px;*/
+	background-color: #e2e2e0;
+}
+.content-hom h1{
+	color: #e5645a;
+	font-size: 20px;
+	font-family: "宋体";
+	font-weight: bold;
+	padding: 8px 200px;
+}
+.content-02{
+	width: 1100px;
+	height: 800px;
+	margin: 20px auto;
+	clear: both;
+}
+.con-con{
+	width: 700px;
+	margin: 0 auto;
+	clear: both;
+	z-index: 2;
+}
+.content-02-left{
+	background-color: #efeae3;
+	width: 455px;
+	/*height: 600px;*/
+}
+.content-02-right{
+	width: 200px;
+	height: 600px;
+	margin-left: 35px;
+	/*border: 1px solid black;*/
+}
+.content-02-left h1{
+	text-align: center;
+	margin-top: 10px;
+	color: #a79b81;
+	font: normal 25px "新宋体";
+}
+.content-02-left p{
+	text-align: center;
+	font: normal 15px "微软雅黑";
+}
+.content-02-right .right-1,.right-2,.right-3{
+	background-color: #efeae3;
+}
+.content-02-right .right-1 h1{
+	text-align: center;
+	padding-top: 10px;
+	color: #a79b81;
+	font: normal 25px "新宋体";
+}
+.content-02-right .right-1 p{
+	padding-left:50px ;
+	font: normal 15px "微软雅黑";
+}
+.content-02-right .right-2 h1{
+	text-align: center;
+	margin-top: 25px;
+	padding-top:10px ;
+	color: #a79b81;
+	font: normal 25px "新宋体";
+}
+.content-02-right .right-2 p{
+	text-align: center;
+	font: normal 15px "微软雅黑";
+}
+.content-02-right .right-2 .p2{
+	padding-left: 110px;
+}
+.content-02-right .right-3{
+	height: 290px;
+}
+.content-02-right .right-3 h1{
+	text-align: center;
+	margin-top: 25px;
+	padding-top: 10px;
+	color: #a79b81;
+	font: normal 25px "新宋体";
+}
+.content-02-right .tuLeft{
+	width: 84px;
+	height: 103px;
+	background: url(../img/tuLeft.png) no-repeat;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.content-02-right .tuRight{
+	width: 82px;
+	height: 103px;
+	background: url(../img/tuRight.png) no-repeat;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.content-02-right .tuBottom{
+	width: 182px;
+	height: 106px;
+	background: url(../img/tuBottom.png) no-repeat;
+	margin-left: 8px;
+	margin-top: 5px;
+	clear: both;
+}
+.con-con-left{
+	width: 218px;
+	height: 426px;
+	background: url(../img/tu_Left.png) no-repeat;
+	position: absolute;
+	z-index: 3;
+	margin-top: 370px;
+	margin-left: 30px;
+}
+/*.con-con-right{
+	width: 300px;
+	height: 800px;
+	background: url(../img/tu_right.png) no-repeat;
+	position: absolute;
+	z-index: 2;
+	margin-left: 660px;
+}*/
+
+/*个人简历*/
+.resume{
+	clear: both;
+	width: 1100px;
+	height: 730px;
+	margin: 0 auto;
+	padding-top: 40px;
+	/*background-color: #fff;*/
+	/*padding: 5px;*/
+	border: 5px double #545d5c;
+	
+}
+.re_left{
+	width: 200px;
+	height: 720px;
+	background-color: #1f1a1b;
+	margin-left: 50px;
+}
+.touxiang{
+	width:150px;
+	height: 150px;
+	margin: 25px;
+	background: url(../img/touxiang.png) no-repeat;
+}
+.ziliao{
+	width: 120px;
+	height: 42px;
+	margin: 40px 40px 20px 40px;
+	background: url(../img/ziliao.png) no-repeat;
+}
+.ziliaotext{
+	margin-left:40px ;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+.ziliaotext p{
+	display: block;
+	margin-top: 10px;
+}
+.lianxi{
+	width: 120px;
+	height: 42px;
+	margin: 40px 40px 20px 40px;
+	background: url(../img/lianxi.png) no-repeat;
+}
+.lianxitext .dianhua{
+	width: 25px;
+	height: 25px;
+	margin-left:40px ;
+	background: url(../img/dianhua.png) no-repeat;
+}
+.lianxitextP{
+	color: #FFFFFF;
+	font-size: 13px;
+	display: block;
+	margin-left:40px ;
+	padding-top: 8px;
+}
+.LianXiweixin{
+	width: 200px;
+	height: 25px;
+	margin-left:40px ;
+	margin-top: 20px;
+	background: url(../img/LXweixin.png) no-repeat;
+}
+.EMail{
+	width: 200px;
+	height: 25px;
+	margin-left:40px ;
+	margin-top: 20px;
+	background: url(../img/Email.png) no-repeat;
+}
+.LXqq{
+	width: 200px;
+	height: 25px;
+	margin-left:40px ;
+	margin-top: 20px;
+	background: url(../img/LXqq.png) no-repeat;
+}
+.re_right{
+	width: 800px;
+	height: 720px;
+	/*border*/: 1px solid black;
+}
+.ziwojianshang{
+	width: 600px;
+	margin: 0 auto;
+	clear: both;
+}
+.zwjstu{
+	width: 600px;
+	height: 28px;
+	background: url(../img/zwjs.png) no-repeat;
+	margin-left:200px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.zwjstu h1{
+	margin-left: 50px;
+	font-size: 30px;
+	font-family: "黑体";
+	color: #313131;
+}
+.ziwojianshang p{
+	display: block;
+	font-size: 16px;
+	margin-bottom: 7px;
+}
+.re_right hr{
+	width: 600px;
+	margin: 20px auto;
+}
+.xueli{
+	width: 600px;
+	margin: 0 auto;
+	clear: both;
+}
+.xuelitu{
+	width: 600px;
+	height: 28px;
+	background: url(../img/xuelitu.png) no-repeat;
+	margin-left:200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.xuelitu h1{
+	margin-left: 70px;
+	font-size: 30px;
+	font-family: "黑体";
+	color: #313131;
+}
+.xueliP1{
+	display: block;
+	font-size: 17px;
+	color: #797979;
+	margin-left: 150px;
+}
+.xueliP2{
+	display: block;
+	margin-top: 10px;
+	margin-left: 150px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.skills{
+	margin-left: 120px;
+}
+.skills h1{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+.skillsLeft{
+	/*widows: 500px;*/
+	/*border: 1px solid black;*/
+}
+.Sl{
+	margin-top: 20px;
+}
+.skillsP{
+	font-size: 14px;
+	display: block;
+	padding-top: 2px;
+}
+.SlD{
+	position: absolute;
+	width: 150px;
+	height: 18px;
+	margin-left: 80px;
+}
+.SlD1{
+	background: url(../img/SlD1.png) no-repeat;
+}
+.SlD2{
+	background: url(../img/sld2.png) no-repeat;
+}
+.SlD3{
+	background: url(../img/sld3.png) no-repeat;
+}
+.SlD4{
+	background: url(../img/sld4.png) no-repeat;
+}
+.SlD5{
+	background: url(../img/sld5.png) no-repeat;
+}
+.skillsRight{
+	margin-left: 200px;
+	/*border: 1px solid black;*/
+}
+.SlD6{
+	background: url(../img/sld6.png) no-repeat;
+}
+.SlD7{
+	background: url(../img/sld7.png) no-repeat;
+}
+.SlD8{
+	background: url(../img/sld8.png) no-repeat;
+}
+.SlD9{
+	background: url(../img/sld9.png) no-repeat;
+}
+.SlD10{
+	background: url(../img/sld10.png) no-repeat;
+}
+/*contact 联系*/
+.contact{
+	width: 100%;
+	height: 380px;
+}
+.dizhi{
+	width: 600px;
+	margin: 0px auto;
+}
+.contact .juzhong{
+	width: 500px;
+	margin: 0 auto;
+}
+.contact .sc{
+	width: 140px;
+	height: 380px;
+	/*border-right: 1px dotted white;*/
+}
+.contact .sc1{
+	width: 82px;
+	height: 82px;
+	margin-left: 50px;
+	background: url(../img/sc-weixin.png) no-repeat;
+}
+.contact .sc2{
+	width: 82px;
+	height: 82px;
+	margin-left: 50px;
+	background: url(../img/sc-qq.png) no-repeat;
+}
+.contact .sc3{
+	width: 82px;
+	height: 82px;
+	margin-left: 50px;
+	background: url(../img/sc-weibo.png) no-repeat;
+}
+.contact .sc4{
+	width: 82px;
+	height: 82px;
+	margin-left: 50px;
+	background: url(../img/sc-facebook.png) no-repeat;
+}
+.contact .co{
+	width: 300px;
+	height: 380px;
+	/*margin-left: 500px;*/
+	/*border-left: 1px dotted white;*/
+	/*border: 1px solid black;*/
+}
+.contact h2{
+	color: white;
+	font: 18px/1 georgia;
+	/* 设置下边框*/
+	/*border-bottom: 1px dashed #d3d3d3;*/
+	/* 设置内边距*/
+	padding: 10px;
+	/*设置一个下外边距*/
+	margin-bottom: 15px;
+}
+/*设置联系栏中的表单项*/
+.contact .txt{
+	width: 276px;
+	height: 33px;
+	line-height: 33px;
+	/*设置背景图片*/
+	background: url(../img/input.png) no-repeat;
+	/*单独为IE6设置一个背景不随元素滚动*/
+	_background-attachment: fixed;
+	
+	/* 去除默认边框*/
+	border: none;
+	
+	/*去除默认的内边距*/
+	padding: 0px 10px;
+	margin: 0px 0px 16px;
+}
+
+.contact .tarea{
+	width: 276px;
+	height: 114px;
+	background: url(../img/textarea.png) no-repeat;
+	/*单独为IE6设置一个背景不随元素滚动*/
+	_background-attachment: fixed;
+	/*去除默认边框*/
+	border: none;
+	/*去除滚动条*/
+	overflow: auto;
+	/*设置文本域不能调整大小*/
+	resize: none;
+	
+	/*去除默认内外边距*/
+	padding: 10px;
+	margin: 0;
+}
+.contact .btn{
+	width: 163px;
+	height: 32px;
+	background: url(../img/btn2.png) no-repeat;
+	border: none;
+	
+	/*去除默认内外边距*/
+	padding: 0;
+	margin-top: 20px;
+	/*设置字体*/
+	color: white;
+	font: 13px Georgia;
+	font-weight: bold;
+	/*设置文字的位置*/
+	text-align: left;
+	text-indent: 4em;
+	/*cursor可以用来设置鼠标指针的样式*/
+	cursor:pointer ;
+	}
+.footer{
+	width: 100%;
+	background-color: #333333;
+	margin-top: 5px;
+	border-top: 10px solid #4C4C4C;
+}
+.footer a , .footer p{
+	color: #999;
+	font: 13px Helvetica ;
+	text-decoration: none;
+}
+.footer a:hover{
+	color: #cccaca;
+	text-decoration: underline;
+}
+
+.footer p{
+	margin-left: 8px;
+	margin-right: 23px;
+	margin-bottom: 6px;
+}
+
+.footer .w{
+	width: 500px;
+	height: 120px;
+	margin: 0px auto;
+	padding-top:18px ;
+}
